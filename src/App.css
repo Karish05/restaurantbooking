@@ -1,0 +1,164 @@
+*{
+    margin: 0px;
+   
+}
+
+.active{
+   color: black !important;
+   font-weight: bold;
+}
+
+
+
+.Headnav{
+    width: 100%;
+    height: 15%;
+    color:black;
+    font-weight: bolder;
+    background-color:#f6f6ff8e;
+    color: black;
+}
+
+.Headdetails{
+    width: 250px;
+    position: relative; 
+    top: 30px;
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+.Logout{
+    float: right;
+    /* background-color: aqua; */
+    display: flex;
+    position: relative;
+    bottom: 20px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+
+
+.sideNave{
+    background-color: navy;
+}
+
+.contactpage{
+    background: url(sidenav/background.jpg);
+    z-index: -1;
+    
+}
+
+.Table{
+    background-color: aqua;
+    overflow-x: auto !important;
+}
+.tablerow TableCell{
+    width: 100%;
+}
+
+/* Chart Box */
+
+.Chart .card{
+    background-color:rgba(84, 189, 136, 0.616);
+    color: white;
+    width: 300px;
+    height: 160px;
+    margin: 10px;
+    align-items: center;
+    display: flex;
+    margin: 30px;
+}
+
+
+.Chart1 .card1{
+    background-color: grey;
+    color: white;
+    width: 300px;
+    height: 160px;
+    margin: 10px;
+    align-items: center;
+    display: flex;
+    margin: 30px;
+}
+
+
+.Chart2 .card2{
+    background-color:brown;
+    color: white;
+    width: 300px;
+    height: 160px;
+    margin: 10px;
+    align-items: center;
+    display: flex;
+    margin: 30px;
+}
+
+.circle{
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    
+}
+
+
+.chartcontainer{
+    display: flex;   
+}
+
+
+.sidebar1{
+    max-width: 250px;
+    /* min-width: 0px; */
+    height: 100%;
+    background-color:rgb(72, 72, 209);
+    color: white;
+    font-size: large;
+   
+  }
+ 
+  .lists{
+   display: flex;
+   /* border: 1px solid black; */
+   /* padding-top: 10px; */
+   padding-bottom: 30px;
+   flex: 30%;
+  }
+ 
+
+ 
+  /* .icons{
+     flex: 30%;
+  }
+ 
+  .title{
+   flex: 70%;
+  } */
+  .listdetails{
+    padding: 20px;
+    position: relative;
+    top: 10px;
+    color:white;
+   }
+   
+
+   .head-text {
+    position: relative;
+    margin: 20px 20px 20px 30px;
+    display: flex;
+ }
+ .text-on-image {
+   position: absolute;
+   bottom: 90%;
+   left: 18%;
+   color: aliceblue;
+ }
+
+
+ .text-on-image1{
+    position: absolute;
+    bottom: 90%;
+    left: 67%;
+    
+ }
+ 
